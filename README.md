@@ -1,10 +1,9 @@
 
 # Olá, eu sou Gabriel Santos! 
 
-## Sobre mim
+## Sobre o projeto
 
-Paulista, 28 anos e atualmente sou Especialista em observabilidade no Banco digital PagBank a 1 ano. Um intusiasta de novas tecnologias e atualmente me aventurando no mundo do desenvolvimento de software. 
-Formado em Ciencia da computação e cursando Pós graduação em Desenvolvimento Full Stack adotei a linguagem JAVA como objetivo.
+Criação de um Sistema de controle de Caixa e Alunos da Escola biblica Dominical, com intuito de organizar finanças tendo um controle melhor de recursos para a instituição.
 
 ### Experiencias profissionais
 Atuando a cerca de 10 anos em  empresas voltadas para meios de pagamento, construi uma carreira solida em empresas conhecidas como: C6Bank, Fiserv(SiTef) e Atualmente PagBank.
