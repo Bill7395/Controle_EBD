@@ -9,6 +9,7 @@ public class Revistas {
     public void trimestre(){
         System.out.println("Selecione o trimestre vigente:");
 
+
     do{
         System.out.println("1 - Trimestre");
         System.out.println("2 - Trimestre");

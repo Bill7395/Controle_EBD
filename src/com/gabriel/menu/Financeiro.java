@@ -6,11 +6,4 @@ public class Financeiro {
         System.out.println("teste de saldo: transferencia realizada R$: 10,00");
 
     }
-
-
-
-
-
-
-
 }

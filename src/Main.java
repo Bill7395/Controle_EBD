@@ -1,6 +1,9 @@
+import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.Scanner;
 import com.gabriel.menu.Financeiro;
 import com.gabriel.menu.Revistas;
+import com.gabriel.mysql.Conexao;
 // import com.gabriel.menu.Matriculados;
 
 public class Main {
@@ -26,7 +29,7 @@ public class Main {
                     financeiro.saldo_Caixa();
                     break;
                 case 2:
-                    // Adicionar a função
+                    testConnection();
                     break;
                 case 3:
                     revistas.trimestre();
@@ -43,4 +46,15 @@ public class Main {
 
         scanner.close();
     }
+
+    private static void testConnection() {
+        try (Connection connection = Conexao.getConnection()) {
+            if (connection != null) {
+                System.out.println("Conexão com o banco de dados estabelecida com sucesso!");
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
 }
