@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import com.gabriel.menu.Financeiro;
 import com.gabriel.menu.Revistas;
-import com.gabriel.menu.Matriculados;
+// import com.gabriel.menu.Matriculados;
 
 public class Main {
     public static void main(String[] args) {
