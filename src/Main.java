@@ -11,7 +11,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Financeiro financeiro = new Financeiro();
         Revistas revistas = new Revistas();
-
         int opcao;
 
         do {
@@ -39,11 +38,8 @@ public class Main {
                     break;
                 default:
                     System.out.println("Opção invalida. retorne ao Menu!");
-
             }
-
         } while (opcao != 0);
-
         scanner.close();
     }
 
